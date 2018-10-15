@@ -1,4 +1,32 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+/* layout sectionof stylesheet*/
 body {
   background-color: #dadada;
   font-size: 10px;
+  font-family: "Montserrat";
+  display: block;
+}
+div{
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20 25;
+}
+
+/*headers */
+h1{
+  font-size: 3em;
+}
+
+/* section specific stylesheet*/
+.container {
+  margin: 20px auto;
+  width: 95%;
+}
+.baku{
+ background-image: url('../images/baku.jpg');
+ background-size: contain;
+ background-repeat: no-repeat;
 }

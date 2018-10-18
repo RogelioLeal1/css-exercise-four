@@ -24,8 +24,8 @@ h1{
 
 /* section specific stylesheet*/
 .container {
-  margin: 20px auto;
-  width: 95%;
+  margin:0 auto;
+  width:auto;
 }
 .baku{
  background-image: url('../images/baku.jpg');
@@ -46,4 +46,20 @@ h1{
  background-image: url('../images/rome.jpg');
  background-size: contain;
  background-repeat: no-repeat;
+}
+
+/* Media Queries*/
+/* code added to create two-column design */
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+/* code added to create four-column design */
+@media screen and (min-width: 991px){
+   div {
+    margin: .5%;
+    width: 24%;
+  }
 }
